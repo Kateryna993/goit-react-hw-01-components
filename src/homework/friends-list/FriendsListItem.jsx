@@ -1,15 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styles from './FriendsList.module.css';
 
 const FriendsItem = ({ avatar, isOnline, name }) => {
   return (
     <>
       <span
-        class="status"
-        style={{ backgroundColor: isOnline ? '#fc0040' : '#08c96b' }}
+        className={styles.status}
+        style={{ backgroundColor: isOnline ? '#08c96b' : '#fc0040' }}
       ></span>
-      <img class="avatar" src={avatar} alt={name} width="48" />
-      <p class="name">{name}</p>
+      <img className={styles.avatar} src={avatar} alt={name} width="48" />
+      <p className={styles.name}>{name}</p>
     </>
   );
 };

@@ -1,0 +1,21 @@
+.transactionHistory {
+  border-spacing: 0;
+  text-align: center;
+  border: 1px solid #7e7171;
+  border-radius: 4px;
+  width: 100%;
+}
+.header {
+  background-color: #aaa6ce;
+  font-size: 16px;
+}
+
+th {
+  height: 30px;
+  color: rgb(0, 0, 0);
+  padding: 0;
+}
+th,
+td {
+  border: 0.1px solid #7e7171;
+}
